@@ -1,0 +1,14 @@
+.button {
+  position: relative;
+  height: 75px;
+  width: 75px;
+  background-color: rgb(37, 128, 119);
+  font-size: x-large;
+  color: white;
+  border-radius: 4px;
+  transition: translateY, 0.75s;
+}
+
+.button:hover {
+  transform: translateY(-10px);
+}
